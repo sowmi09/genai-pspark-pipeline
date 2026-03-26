@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project Specific Data
+data/raw/*.csv
+data/processed/
+
+# Spark temporary files
+spark-warehouse/
